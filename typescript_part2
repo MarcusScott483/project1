@@ -1,0 +1,18 @@
+Script started on Wed Feb 16 16:12:34 2022
+Restored session: Wed Feb 16 16:12:10 EST 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://BenjaminMacbookPro.local/Users/benmccardle/Desktop/pa2_repo[0m[27m[24m[Jbenmccardle@BenjaminMacbookPro pa2_repo % [K[?2004hexitpython3 request.py[?2004l
+File name to get from server: index.html
+Connected to:  localhost : 25565
+Response from webserver: 
+b'HTTP/1.1 404 NOT FOUND\n\n404 - Not Found'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://BenjaminMacbookPro.local/Users/benmccardle/Desktop/pa2_repo[0m[27m[24m[Jbenmccardle@BenjaminMacbookPro pa2_repo % [K[?2004hpython3 request.py[?2004l
+File name to get from server: HelloWorld.html
+Connected to:  localhost : 25565
+Response from webserver: 
+b'HTTP/1.1 200 OK\n\n<!DOCTYPE html>  <html lang="en">    <head>      <meta charset=UTF-8>      <title>Hello World!</title>    </head>'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://BenjaminMacbookPro.local/Users/benmccardle/Desktop/pa2_repo[0m[27m[24m[Jbenmccardle@BenjaminMacbookPro pa2_repo % [K[?2004heexit[?2004l
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Feb 16 16:14:03 2022

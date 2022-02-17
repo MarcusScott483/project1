@@ -5,6 +5,8 @@ serverName = 'localhost'
 serverPort = 25565
 clientSocket = socket(AF_INET, SOCK_STREAM)
 
+file = input("File name to get from server: ")
+
 try:
     clientSocket.connect((serverName,serverPort))
 except ConnectionRefusedError:
@@ -13,10 +15,10 @@ except ConnectionRefusedError:
 
 print("Connected to: ", serverName, ":", serverPort)
 
-message = ("GET /index.html HTTP/1.1")
+message = ("GET /" + file + "  HTTP/1.1")
 clientSocket.send(message.encode())
 
-response = clientSocket.recv(1024)
+response = clientSocket.recv(2048)
 clientSocket.close()
 
 print("Response from webserver: ")
